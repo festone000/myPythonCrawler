@@ -22,7 +22,34 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Login\login.py" />
+    <Compile Include="Music163\filt_html.py" />
+    <Compile Include="Music163\get_toplist_html.py" />
+    <Compile Include="Music163\save.py" />
+    <Compile Include="Music163\toplist.py" />
+    <Compile Include="Music163\__init__.py" />
     <Compile Include="myPythonClawler.py" />
+    <Compile Include="Tools\buildoper.py" />
+    <Compile Include="Tools\cookie.py" />
+    <Compile Include="Tools\file.py" />
+    <Compile Include="Tools\gzip.py" />
+    <Compile Include="Tools\xsrf.py" />
+    <Compile Include="Tools\__init__.py" />
+    <Compile Include="Useless\crawler.py" />
+    <Compile Include="Useless\header.py" />
+    <Compile Include="Useless\regex.py" />
+    <Compile Include="Useless\text.py" />
+    <Compile Include="Useless\zhihu.py" />
+    <Compile Include="Util\deque.py" />
+    <Compile Include="YgClawler\yg.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login\" />
+    <Folder Include="Music163\" />
+    <Folder Include="Tools\" />
+    <Folder Include="Useless\" />
+    <Folder Include="Util\" />
+    <Folder Include="YgClawler\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
